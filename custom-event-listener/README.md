@@ -1,6 +1,3 @@
-# keycloak-publish-custom-events
-Repository for publishing custom events from Keycloak to NSQ
-
 # Registration Event Listener
 
 This is a custom event listener for Keycloak events. 
@@ -32,3 +29,12 @@ Set the event listener
 2. Go to **Realm Settings**
 3. Go to the **Events** tab
 4. Click in the input box next to event listeners and a dropdown with all available event listeners will be shown. Select our newly created `custom_event_listener`
+
+
+## How to test it?
+
+After you have set up everything and configured the listener do the following:
+
+1. Open the web interface of Mailhog at http://localhost:8085
+2. Register a new user on keycloak
+3. Go to Mailhog and check that it catched a mail for the admin
