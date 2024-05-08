@@ -1,10 +1,10 @@
 # keycloak-publish-custom-events
-Repository for publishing custom events from Keycloak to NSQ
+Repository for listening custom events from Keycloak and publishing to NSQ
 
 # Registration Event Listener
 
 This is a custom event listener for Keycloak events. 
-Its goal is to notify an admin about new user registrations via email.
+Its goal is to listen multiple events from Keycloak and publish to NSQ
 
 ## How to build the artifact?
 

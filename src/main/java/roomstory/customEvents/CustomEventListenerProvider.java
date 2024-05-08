@@ -1,4 +1,4 @@
-package it.aboutbits;
+package roomstory.customEvents;
 
 import java.io.OutputStream;
 import java.net.HttpURLConnection;

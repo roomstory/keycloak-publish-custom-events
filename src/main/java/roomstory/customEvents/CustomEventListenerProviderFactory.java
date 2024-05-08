@@ -1,4 +1,4 @@
-package it.aboutbits;
+package roomstory.customEvents;
 
 import org.keycloak.Config;
 import org.keycloak.events.EventListenerProvider;

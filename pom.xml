@@ -2,13 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>it.aboutbits</groupId>
-    <artifactId>custom-event-listener</artifactId>
+    <groupId>com.roomstory</groupId>
+    <artifactId>keycloak-publish-custom-events</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Keycloak - Custom Event Listener</name>
-    <description>This event listener will notify an admin about new registrations via Email.</description>
+    <name>Keycloak - Custom Event Publisher</name>
+    <description>This event listener will publish the desired events in the Queue.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
